@@ -1,0 +1,21 @@
+{
+  "threshold": 0.243196364181615,
+  "threshold_f1": 0.26888872700642624,
+  "selection": "Базовая LR; максимум precision на validation при recall >= 0.7",
+  "features": [
+    "fixed_acidity",
+    "volatile_acidity",
+    "citric_acid",
+    "residual_sugar",
+    "chlorides",
+    "free_sulfur_dioxide",
+    "total_sulfur_dioxide",
+    "density",
+    "pH",
+    "sulphates",
+    "alcohol",
+    "is_red"
+  ],
+  "random_state": 42,
+  "positive_class": "quality >= 7"
+}
